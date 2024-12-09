@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "f3gvDya1JI4=",
+=======
+  "dgSpecHash": "RrAX1pJ9SIxB/fQ1kzc1bU8dmdigm8TMbmu7YGbc4BoIyrV9sF1Bsu6HzCZPGntIVK/5CinbZIpHBqhSIfY1Ew==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\me\\RiderProjects\\Poshtaaaa\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
