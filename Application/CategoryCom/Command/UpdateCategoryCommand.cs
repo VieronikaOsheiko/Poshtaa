@@ -1,13 +1,13 @@
-﻿using Application.CategoryCom.CategoryException;
-using Application.Common;
+﻿using Application.Common;
 using Application.Common.Interfaces.Repositories;
+using Application.Users.Exceptions;
 using Domain.Category;
 using MediatR;
 using Optional;
 
-namespace Application.CategoryCom.Command;
+namespace Application.CategoryCom;
 
-public record UpdateCategoryCommand: IRequest<Result<Category, CategoryException.CategoryExceptions>>
+public record UpdateCategoryCommand: IRequest<Result<Category, CategoryException>>
 {
     public required Guid CategoryId { get; init; }
     public required string Name { get; init; }
@@ -15,7 +15,7 @@ public record UpdateCategoryCommand: IRequest<Result<Category, CategoryException
     public required bool InCountry { get; init; }
     public required string Size { get; init; }
 }
-public class UpdateCourseCommandHandler : IRequestHandler<UpdateCategoryCommand, Result<Category, CategoryException.CategoryExceptions>>
+public class UpdateCourseCommandHandler : IRequestHandler<UpdateCategoryCommand, Result<Category, CategoryException>>
 {
     private readonly ICategoryRepository categoryRepository;
 
@@ -24,7 +24,7 @@ public class UpdateCourseCommandHandler : IRequestHandler<UpdateCategoryCommand,
         this.categoryRepository = categoryRepository;
     }
 
-    public async Task<Result<Category, CategoryException.CategoryExceptions>> Handle(
+    public async Task<Result<Category, CategoryException>> Handle(
         UpdateCategoryCommand request,
         CancellationToken cancellationToken)
     {
@@ -37,13 +37,13 @@ public class UpdateCourseCommandHandler : IRequestHandler<UpdateCategoryCommand,
                 var existingFaculty = await CheckDuplicated(categoryId, request.Name, cancellationToken);
 
                 return await existingFaculty.Match(
-                    ef => Task.FromResult<Result<Category, CategoryException.CategoryExceptions>>(new CategoryAlreadyExistsExceptions(ef.Id)),
+                    ef => Task.FromResult<Result<Category, CategoryException>>(new CategoryAlreadyExistsException(ef.Id)),
                     async () => await UpdateEntity(f, request.Name, request.InCountry, request.Size, request.Material, cancellationToken));
             },
-            () => Task.FromResult<Result<Category, CategoryException.CategoryExceptions>>(new CategoryNotFoundExceptions(categoryId)));
+            () => Task.FromResult<Result<Category, CategoryException>>(new CategoryNotFoundException(categoryId)));
     }
 
-    private async Task<Result<Category, CategoryException.CategoryExceptions>> UpdateEntity(
+    private async Task<Result<Category, CategoryException>> UpdateEntity(
         Category course,
         string name,
         bool inCountry,  
@@ -59,7 +59,7 @@ public class UpdateCourseCommandHandler : IRequestHandler<UpdateCategoryCommand,
         }
         catch (Exception exception)
         {
-            return new CategoryUnknownExceptions(course.Id, exception);
+            return new CategoryUnknownException(course.Id, exception);
         }
     }
 

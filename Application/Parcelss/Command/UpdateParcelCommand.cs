@@ -1,10 +1,12 @@
 ﻿using Application.Common;
 using Application.Common.Interfaces.Repositories;
 using Application.Users.Exceptions;
-using Domain.Parcels;
+using Domain;
 using MediatR;
 
-namespace Application.Parcelss.Command;
+using Domain.Parcels;
+
+namespace Application.Users.Commands;
 
 public record UpdateParcelCommand : IRequest<Result<Parcel, ParcelException>>
 {

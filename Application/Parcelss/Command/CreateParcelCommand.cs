@@ -1,12 +1,13 @@
 ﻿using Application.Common;
 using Application.Common.Interfaces.Repositories;
 using Application.Users.Exceptions;
+using Domain;
 using Domain.Category;
 using Domain.Parcels;
 using Domain.Users;
 using MediatR;
 
-namespace Application.Parcelss.Command
+namespace Application.Users.Commands
 {
     public record CreateParcelCommand : IRequest<Result<Parcel, ParcelException>>
     {

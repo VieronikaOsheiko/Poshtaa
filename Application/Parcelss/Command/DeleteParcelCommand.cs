@@ -1,10 +1,11 @@
 ﻿using Application.Common;
 using Application.Common.Interfaces.Repositories;
 using Application.Users.Exceptions;
+using Domain;
 using Domain.Parcels;
 using MediatR;
 
-namespace Application.Parcelss.Command;
+namespace Application.Users.Commands;
 
 public record DeleteParcelCommand : IRequest<Result<Parcel, ParcelException>>
 {

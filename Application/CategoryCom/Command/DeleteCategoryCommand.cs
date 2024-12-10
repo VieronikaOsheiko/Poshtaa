@@ -1,21 +1,20 @@
-﻿using Application.CategoryCom.CategoryException;
-using Application.Common;
+﻿using Application.Common;
 using Application.Common.Interfaces.Repositories;
 using Application.Users.Exceptions;
 using Domain.Category;
 using MediatR;
 
-namespace Application.CategoryCom.Command;
+namespace Application.CategoryCom;
 
-public class DeleteCategoryCommand: IRequest<Result<Category, CategoryException.CategoryExceptions>>
+public class DeleteCategoryCommand: IRequest<Result<Category, CategoryException>>
 {
     public required Guid CategoryId { get; init; }
 }
 
 public class DeleteCategoryCommandHandler(ICategoryRepository categoryRepository)
-    : IRequestHandler<DeleteCategoryCommand, Result<Category, CategoryException.CategoryExceptions>>
+    : IRequestHandler<DeleteCategoryCommand, Result<Category, CategoryException>>
 {
-    public async Task<Result<Category, CategoryException.CategoryExceptions>> Handle(
+    public async Task<Result<Category, CategoryException>> Handle(
         DeleteCategoryCommand request,
         CancellationToken cancellationToken)
     {
@@ -23,12 +22,12 @@ public class DeleteCategoryCommandHandler(ICategoryRepository categoryRepository
 
         var existingCourse = await categoryRepository.GetById(categoryId, cancellationToken);
 
-        return await existingCourse.Match<Task<Result<Category, CategoryException.CategoryExceptions>>>(
+        return await existingCourse.Match<Task<Result<Category, CategoryException>>>(
             async u => await DeleteEntity(u, cancellationToken),
-            () => Task.FromResult<Result<Category,CategoryException.CategoryExceptions>>(new CategoryNotFoundExceptions(categoryId)));
+            () => Task.FromResult<Result<Category,CategoryException>>(new CategoryNotFoundException(categoryId)));
     }
 
-    public async Task<Result<Category, CategoryException.CategoryExceptions>> DeleteEntity(Category category, CancellationToken cancellationToken)
+    public async Task<Result<Category, CategoryException>> DeleteEntity(Category category, CancellationToken cancellationToken)
     {
         try
         {
@@ -36,7 +35,7 @@ public class DeleteCategoryCommandHandler(ICategoryRepository categoryRepository
         }
         catch (Exception exception)
         {
-            return new CategoryUnknownExceptions(category.Id, exception);
+            return new CategoryUnknownException(category.Id, exception);
         }
     }
 }
