@@ -66,9 +66,21 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
             }
           },
           "imports": [
@@ -83,6 +95,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

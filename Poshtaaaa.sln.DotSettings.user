@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=000a079d_002D9327_002D45cf_002D9526_002Dbbe75c86d54d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateCategory #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.CategoryT.CategoryTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ba23123e_002Def58_002D409e_002Dbff9_002Db3d179761f81/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateCategory" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.CategoryT.CategoryTests.CreateCategory&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.HistoryT.HistoryControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.CategoryT.CategoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.ParcelT.ParcelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::933E0438-1DAD-4698-A4EF-92091E457127::net8.0::TestProject1.UsersT.CreateUserTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
