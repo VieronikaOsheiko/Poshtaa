@@ -235,3 +235,12 @@ C:\Users\me\Documents\3 курс\React\Poshtaa\Apii\obj\Debug\net8.0\refint\Apii
 C:\Users\me\Documents\3 курс\React\Poshtaa\Apii\obj\Debug\net8.0\Apii.pdb
 C:\Users\me\Documents\3 курс\React\Poshtaa\Apii\obj\Debug\net8.0\Apii.genruntimeconfig.cache
 C:\Users\me\Documents\3 курс\React\Poshtaa\Apii\obj\Debug\net8.0\ref\Apii.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\С\Poshtaa\Apii\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
