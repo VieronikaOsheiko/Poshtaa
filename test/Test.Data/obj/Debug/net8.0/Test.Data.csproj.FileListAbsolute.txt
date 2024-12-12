@@ -1,0 +1,16 @@
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\bin\Debug\net8.0\Test.Data.deps.json
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\bin\Debug\net8.0\Test.Data.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\bin\Debug\net8.0\Test.Data.pdb
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\bin\Debug\net8.0\Domain.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\bin\Debug\net8.0\Domain.pdb
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.csproj.AssemblyReference.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.AssemblyInfoInputs.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.AssemblyInfo.cs
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.csproj.CoreCompileInputs.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.sourcelink.json
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.csproj.Up2Date
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\refint\Test.Data.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\Test.Data.pdb
+C:\Users\me\Documents\3 курс\React\Poshtaa\test\Test.Data\obj\Debug\net8.0\ref\Test.Data.dll

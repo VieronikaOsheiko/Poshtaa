@@ -1,0 +1,26 @@
+C:\С\Poshtaa\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\С\Poshtaa\Domain\bin\Debug\net8.0\Domain.dll
+C:\С\Poshtaa\Domain\bin\Debug\net8.0\Domain.pdb
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.dll
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\Domain.pdb
+C:\С\Poshtaa\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\me\Documents\3 курс\React\Poshtaa\Domain\obj\Debug\net8.0\ref\Domain.dll
